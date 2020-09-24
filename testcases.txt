@@ -1,4 +1,5 @@
 Binary Cases
+- proper 64-bit input
 - any input other than 0 or 1
 - more than 64-bit binary
 - less tahn 64-bit binary
@@ -9,13 +10,14 @@ Binary Cases
 - special case: (positive) infinity						0111111111110000000000000000000000000000000000000000000000000000 (+inf)
 - special case: (negative) infinity						1111111111110000000000000000000000000000000000000000000000000000 (-inf)
 - special case: denormalized							0000000000000010000000000000000000000000000000000000000000000000 (2.781342323134e-309)
-- special case: sNaN									0111111111110100000000000000000000000000000000000000000000000000
-- special case: qNaN									0111111111111000000000000000000000000000000000000000000000000000
+- special case: sNaN								0111111111110100000000000000000000000000000000000000000000000000
+- special case: qNaN								0111111111111000000000000000000000000000000000000000000000000000
 
 Hexadecimal Cases
+- proper 16-digit input
 - any input other than 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
 - more than 16 hex
-- less tahn 16 hex
+- less than 16 hex
 - normalized case (positive)
 - special case: (positive) zero
 - special case: (negative) zero
